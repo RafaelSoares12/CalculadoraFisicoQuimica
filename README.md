@@ -10,11 +10,25 @@
 </h1>
 
 <p align="center">
- <a href="#Tecnologias">Tecnologias</a> •
  <a href="https://github.com/RafaelSoares12">Autor</a>
 </p>
 
-## Tecnologias
+```bash
+$ git clone https://github.com/RafaelSoares12/CalculadoraFisicoQuimica.git
+$ cd CalculadoraFisicoQuimica
+```
+## 🚀 Começando
+
+Clone o projeto e acesse a pasta de destino:
+
+```bash
+# Install the dependencies
+$ pip install -r requirements.txt
+
+# Rode o projeto
+$ python main.py
+```
+## 📌 Tecnologias
 
 Tecnologias usadas:
 
