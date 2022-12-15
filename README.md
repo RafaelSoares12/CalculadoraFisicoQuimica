@@ -9,20 +9,12 @@
     <img alt="Terminal - Thumb" title="calculadora" src="src/print.png" />
 </h1>
 
-<p align="center">
- <a href="https://github.com/RafaelSoares12">Autor</a>
-</p>
-
-```bash
-$ git clone https://github.com/RafaelSoares12/CalculadoraFisicoQuimica.git
-$ cd CalculadoraFisicoQuimica
-```
 ## 🚀 Começando
 
 Clone o projeto e acesse a pasta de destino:
 
 ```bash
-# Install the dependencies
+# Instale as dependências
 $ pip install -r requirements.txt
 
 # Rode o projeto
