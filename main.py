@@ -4,11 +4,17 @@ from mendeleev.vis import periodic_table
 from mendeleev import element
 from chempy import balance_stoichiometry
 from chempy.equilibria import EqSystem
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+
 
 class Calculadora():
     def __init__(self):
         self.escolha=0
-        # self.massasMolares = []    
+        self.massasMolares = [] #funcao 1 
+        self.DadosElementos = []   #funcao 3
+        self.EquacoesBalanceadas = [] #funcao 4
+        self.PhElementos = [] #funcao 5
 
     def menu(self):
 
@@ -45,9 +51,11 @@ class Calculadora():
         else:
             self.menu()
     
-    # def visualizarTabela(self):
-    #     periodic_table() 
-    #     self.menu()
+    def visualizarTabela(self):
+        img=mpimg.imread('tabela.webp')
+        imgplot = plt.imshow(img)
+        plt.show().set_size_inches(100, 100, forward=True)
+        self.menu()
 
     def dadosElementos(self):
         elemento = input('Digite o elemento que deseja visualizar as propriedades: ')
